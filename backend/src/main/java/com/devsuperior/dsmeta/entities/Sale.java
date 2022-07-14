@@ -24,13 +24,13 @@ public class Sale {
 	
 	public Sale() {}
 
-	public Sale(Long id, String sellerName, Integer visited, Integer deals, Double ammount, LocalDate date) {
+	public Sale(Long id, String sellerName, Integer visited, Integer deals, Double amount, LocalDate date) {
 		super();
 		this.id = id;
 		this.sellerName = sellerName;
 		this.visited = visited;
 		this.deals = deals;
-		this.ammount = ammount;
+		this.amount = amount;
 		this.date = date;
 	}
 
@@ -66,12 +66,12 @@ public class Sale {
 		this.deals = deals;
 	}
 
-	public Double getAmmount() {
-		return ammount;
+	public Double getAmount() {
+		return amount;
 	}
 
-	public void setAmmount(Double ammount) {
-		this.ammount = ammount;
+	public void setAmount(Double ammount) {
+		this.amount = ammount;
 	}
 
 	public LocalDate getDate() {
